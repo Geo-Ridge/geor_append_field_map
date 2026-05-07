@@ -1,0 +1,59 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Unit test / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ==========================
+# QGIS
+# ==========================
+
+# QGIS project backups
+*.qgs~
+*.qgz~
+
+# QGIS auto-save
+*.autosave
+
+# QGIS cache & logs
+.qgis2/
+.qgis3/
+*.log
+
+# Plugin compiled files
+*.pyc
+
+# ==========================
+# IDEs
+# ==========================
+.vscode/
+.idea/
+
+# ==========================
+# OS
+# ==========================
+.DS_Store
+Thumbs.db
